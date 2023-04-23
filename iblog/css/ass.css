@@ -1,0 +1,271 @@
+.main-row {
+  margin: 8%;
+  background-color: white;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+}
+.blog-img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-30px);
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.3);
+}
+.blog-date span {
+  color: #962c51;
+}
+.ul-cls {
+  justify-content: center;
+}
+.ul-cls li {
+  cursor: pointer;
+}
+.blog-title h2 {
+  font-style: normal;
+  font-weight: 400;
+}
+a {
+  font-size: 1rem;
+}
+
+.blog-desc p {
+  font-style: normal;
+  line-height: 2;
+}
+.btn2 {
+  background-color: #ff0036;
+  border: none;
+  color: white;
+  padding: 7px 14px;
+
+  text-decoration: none;
+
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  left: 549px;
+  bottom: -7px;
+}
+
+.main {
+  margin: auto;
+  width: 22%;
+  left: 25rem;
+  position: relative;
+}
+
+.main input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+}
+
+.main button {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.looking input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+}
+
+.looking button {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.pagination {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 2px;
+  /* bottom: 18px; */
+  margin-top: 28px;
+  left: 43%;
+  margin-bottom: 20px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.success {
+  padding: 20px;
+  background-color: #4caf50;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+}
+
+.alert.success {
+  background-color: #4caf50;
+}
+.alert.info {
+  background-color: #2196f3;
+}
+.alert.warning {
+  background-color: #ff9800;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.wrapper {
+  padding: 21px;
+  position: relative;
+  /* margin-left: 25px; */
+  left: 45px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+  width: 715px;
+  min-height: 400px;
+  margin: 20px 0;
+}
+
+.wrapper .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.wrapper .form .row .input-group {
+  padding: 0 10px;
+  display: block;
+}
+
+.wrapper .form .row .input-group:first-child {
+  padding-left: 0;
+}
+
+.wrapper .form .row .input-group:last-child {
+  padding-right: 0;
+}
+
+.wrapper .form .input-group {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.wrapper .form .input-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.wrapper .form .input-group .btn {
+  margin: 20px 0;
+  display: block;
+  padding: 0.7rem 2rem;
+  opacity: 0.8;
+  color: #fff;
+  background: #00b894;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease-in;
+}
+
+.wrapper .form .input-group .btn:hover {
+  opacity: 1;
+}
+
+.wrapper .form .input-group input,
+.wrapper .form .input-group textarea {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #00b894;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.wrapper .form .input-group.textarea {
+  height: 200px;
+}
+
+.wrapper .form .input-group.textarea textarea {
+  resize: none;
+}
+
+.wrapper .prev-comments {
+  margin-top: 50px;
+}
+
+.wrapper .prev-comments .single-item {
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.wrapper .prev-comments .single-item h4 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #111;
+}
+
+.wrapper .prev-comments .single-item a {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #111;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.wrapper .prev-comments .single-item p {
+  font-size: 0.9rem;
+  color: #111;
+}
